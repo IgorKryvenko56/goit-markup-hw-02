@@ -89,6 +89,27 @@ body{
   flex-wrap: wrap;
   justify-content: space-between;
 }
+/*--logo--*/
+.header-logo .logo {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin: 44px 0px 71px 24px;
+  text-decoration: none;
+  color:#2E2F42;
+}
+.header-logo .web {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  margin: 0px 0px 44px 24px;
+  text-decoration: none;
+  color:#4D5AE5;
+}
 .header-list{
   display: flex;
   flex-wrap: wrap;
