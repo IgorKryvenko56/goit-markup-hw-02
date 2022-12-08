@@ -84,7 +84,7 @@ body{
   margin: 0 auto;
 }
 .header{
-  background-color: #fff;
+  background-color:var(--primary-text-color);
 }
 .header-wrapper{
   width: 1440px;
@@ -129,11 +129,13 @@ color:var(--hover-color);
   flex-wrap: wrap;
 }
 .header-item {
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-right: 15px;
   color:var(--nav-color);
+  text-decoration: none;
 }
 .header-item:hover,
 .header-item:focus{ 
@@ -160,8 +162,11 @@ color:var(--hover-color);
 .header-item .link:focus{ 
   color:var(--accent-color) ;
 }
-/* Навигация */
-/*.header-nav {}*/
+.connection-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 ul {
   list-style: none;
 }
@@ -171,13 +176,21 @@ ul {
 }
 .hero-title {
   color:var(--primary-text-color);
+ }
+ .hero .button {
+  cursor: pointer;
+  width: 170px;
+  height: 51px;
+  color:#F4F4FD;
+  background-color:#4D5AE5;
+  border-radius: 4px;
   }
 /* Секции */
 .section-title {
   color: #2E2F42;
 }
 .policy-list .title {
-color:#2E2F42;
+color:var(--nav-color);
 }
 .policy-list .title-text {
  color:var(--title-text-color); 
@@ -234,30 +247,33 @@ Accent
 Light 
 #F4F4FD*/
 
-
-.button {
+/*.button
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 16px 32px;
-  gap: 10px;
-  width: 170px;
-  height: 51px;
-  left: 635px;
-  top: 432px;
-  color:#F4F4FD;
-  background-color:#4D5AE5;
-  }
+  gap: 10px;*/
+
 
 .btn {
+  width: 116px;
+  height: 48px;
   font-style: Semi Bold;
   color:var(--hover-color);
+  background-color: #F4F4FD;
   border-radius: 4px;
-  border: none;
+  border: 1px solid #E7E9FC;
   padding: 0.25rem 1.25rem;
 }
 .btn.active {
-  color: red;
+  width: 69px;
+  height: 48px;
+  color:#F4F4FD;
+  background-color: #4D5AE5;
+  border-radius: 4px;
+}
+.button .btn {
+  cursor: pointer;
 }
 /*--Connection*/
 .link {
@@ -271,4 +287,7 @@ Light
 }
 .link.active {
   font-weight: 700;
+}
+.footer .logo {
+  text-decoration: none;
 }
