@@ -176,7 +176,7 @@ ul {
 }
 /* Заглавия */
 .hero {
-  background-color:#2E2F42 ;
+  background-color:var(--nav-color) ;
 }
 .hero-title {
   font-weight: 600;
@@ -194,7 +194,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.04em;
   color:var(--primary-text-color);
-  background-color:#4D5AE5;
+  background-color:var(--hover-color);
   border-radius: 4px;
   }
 
@@ -218,7 +218,7 @@ ul {
 .policy-list .title-text {
   color:var(--title-text-color); 
 }
-.team-list .team-title{
+.team-list .team-title {
   font-family: inherit;
   font-weight: 600;
   font-size: 20px;
