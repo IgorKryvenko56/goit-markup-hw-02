@@ -132,13 +132,14 @@ color:var(--hover-color);
   flex-wrap: wrap;
 }
 .header-item {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-right: 15px;
-  color:var(--nav-color);
-  text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-right: 15px;
+color:var(--nav-color);
+text-decoration: none;
 }
 .header-item:hover,
 .header-item:focus{ 
@@ -353,3 +354,11 @@ Light
 .footer .logo {
   text-decoration: none;
 }
+
+font-family: Roboto;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+
