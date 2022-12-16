@@ -130,7 +130,8 @@ color:var(--hover-color);
 .header-list{
   display: flex;
   flex-wrap: wrap;
-}
+ }
+
 .header-item {
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
@@ -138,16 +139,15 @@ font-weight: 600;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-right: 15px;
-color:var(--nav-color);
 text-decoration: none;
 }
-.header-item:hover,
+/*.header-item:hover,
 .header-item:focus{ 
-  color:var(--hover-color);
+  color:var(--title-text-color);
 }
   .header-list .link-current{
     color:var(--hover-color);
-}
+}*/
 .connection-list .connection-item {
   display: inline-block;
 }
@@ -158,13 +158,13 @@ text-decoration: none;
 .header-item:last-child{
   margin-right: 0;
 }
-.header-item .link-current:hover,
+/*.header-item .link-current:hover,
 .header-item .link-current:focus{ 
   color:var(--accent-color) ;
-}
+}*/
 .header-item .link:hover,
 .header-item .link:focus{ 
-  color:var(--accent-color) ;
+  color:var(--title-text-color) ;
 }
 .connection-item  {
   font-size: 16px;
@@ -218,7 +218,6 @@ ul {
 }
 .policy-list .title-text {
   font-family: inherit;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -232,24 +231,14 @@ ul {
   letter-spacing: 0.02em;
   color: var(--nav-color);
 }
-.imajes h3 {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.19;
-  letter-spacing: 0.04em;
-  color:var(--nav-color);
-}
+
 .imajes p {
   font-family: inherit;
-  font-weight:400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:var(--title-text-color);
 }
-
-
 .footer {
   background-color:var(--nav-color);
 }
@@ -309,8 +298,6 @@ Light
 
 
 .btn {
-  width: 116px;
-  height: 48px;
   font-family: inherit;
   font-weight: 600;
   font-size: 16px;
@@ -323,8 +310,6 @@ Light
   padding: 12px  24px;
 }
 .btn.active {
-  width: 69px;
-  height: 48px;
   font-family: inherit;
   font-weight: 600;
   font-size: 16px;
@@ -355,10 +340,15 @@ Light
   text-decoration: none;
 }
 
-font-family: Roboto;
-font-size: 16px;
+h3 {
+font-family: inherit;
+font-size: 20px;
 font-weight: 600;
-line-height: 1.5;
+line-height: 1.2;
 letter-spacing: 0.02em;
+color:var(--nav-color);
+}
+
+
 
 
