@@ -93,7 +93,7 @@ body{
   height: 72px;
   display: flex;
   flex-wrap: wrap;
-  text-decoration: none;
+  
   }
 .header-logo .logo {
   font-family: 'Raleway',sans-serif;
@@ -181,7 +181,6 @@ text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--title-text-color);
 }
 ul {
   list-style: none;
@@ -338,7 +337,6 @@ Light
 .connection-list .link {
   text-decoration: none;
   color:var(--title-text-color);
-  opacity: 0.5;
 }
 .connection-list .link:hover,
 .connection-list .link:focus {
