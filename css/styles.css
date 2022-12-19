@@ -134,7 +134,7 @@ color:var(--hover-color);
   text-decoration: none;
  }
  .header-list .link { 
-  color:var(--nav-color) ;
+  color:var(--nav-color);
   text-decoration: none;
 }
 .header-list .link:hover,
@@ -155,27 +155,9 @@ letter-spacing: 0.02em;
 margin-right: 15px;
 text-decoration: none;
 }
-/*.header-item:hover,
-.header-item:focus{ 
-  color:var(--title-text-color);
-}
-  .header-list .link-current{
-    color:var(--hover-color);
-}*/
-.connection-list .connection-item {
-  display: inline-block;
-}
-/*.header-list .header-item {
-  display:inline-block;
-   color:var(--nav-color);
- }*/
 .header-item:last-child{
   margin-right: 0;
 }
-/*.header-item .link-current:hover,
-.header-item .link-current:focus{ 
-  color:var(--accent-color) ;
-}*/
 
 .connection-item  {
   font-size: 16px;
